@@ -121,5 +121,4 @@ public class Transport {
     public String getTransportType() {
         return "Transporte genérico";
     }
-
 }
