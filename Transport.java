@@ -12,8 +12,8 @@ public class Transport {
     private final String id;
     private String origin;
     private String destination;
-    private double price;
-    private double fees;
+    public double price;
+    public double fees;
     private boolean available;
 
     public Transport() {
