@@ -2,10 +2,10 @@ public class AirTransportation extends Transport {
     private String name;
     private int numberOfContainers;
 
-    public AirTransportation() {
+    public AirTransportation(String name, int numberOfContainers) {
         super();
-        this.name = "";
-        this.numberOfContainers = 0;
+        this.name = name;
+        this.numberOfContainers = numberOfContainers;
         setFees(4.0);
     }
 

@@ -17,7 +17,7 @@ public class GroundTransportationTest {
 
     @BeforeEach
     public void setUp() {
-        groundTransport = new GroundTransportation();
+        groundTransport = new GroundTransportation("ABC123");
     }
 
     @Test
